@@ -1,7 +1,7 @@
-import { fetchBooks } from "../modules/fetchBooks";
-import { renderBookList } from "../modules/renderBooks";
-import { renderBookDetails } from "../modules/renderBookDetails";
-import { Book } from "../interfaces/book";
+import { fetchBooks } from "../modules/fetchBooks.js";
+import { renderBookList } from "../modules/renderBooks.js";
+import { renderBookDetails } from "../modules/renderBookDetails.js";
+import { Book } from "../interfaces/book.js";
 
 let books: Book[] = [];
 

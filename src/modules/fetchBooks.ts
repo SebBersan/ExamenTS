@@ -1,4 +1,4 @@
-import { Book } from "../interfaces/book";
+import { Book } from "../interfaces/book.js";
 
 export async function fetchBooks(): Promise<Book[]> {
     const response = await fetch("https://my-json-server.typicode.com/zocom-christoffer-wallenberg/books-api/books");

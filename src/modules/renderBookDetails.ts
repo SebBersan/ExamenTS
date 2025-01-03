@@ -1,4 +1,4 @@
-import { Book } from "../interfaces/book";
+import { Book } from "../interfaces/book.js";
 
 export function renderBookDetails(book: Book): void {
     const bookDetailsContainer = document.getElementById("book-details")!;

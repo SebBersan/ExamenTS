@@ -1,4 +1,4 @@
-import { Book } from "../interfaces/book";
+import { Book } from "../interfaces/book.js";
 
 export function renderBookList(books: Book[]): void {
     const bookListContainer = document.getElementById("book-list")!;
