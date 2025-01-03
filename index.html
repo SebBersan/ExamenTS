@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="./dist/script/main.js" type="module" defer></script>
+    <link rel="icon" href="./src/img/favicon.ico" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="nav-title">Ezy Library</a>
+            <div class="book-search-container">
+                <label for="book-search">Enter a book's title</label>
+                <input type="text" id="book-search" placeholder="e.g., Harry Potter">
+                <button id="search-btn">Search</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="book-list"></div>
+        <br />
+        
+        <div id="book-details-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close-btn">&times;</span>
+                <div id="book-details"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
