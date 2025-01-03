@@ -7,9 +7,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { fetchBooks } from "../modules/fetchBooks";
-import { renderBookList } from "../modules/renderBooks";
-import { renderBookDetails } from "../modules/renderBookDetails";
+import { fetchBooks } from "../modules/fetchBooks.js";
+import { renderBookList } from "../modules/renderBooks.js";
+import { renderBookDetails } from "../modules/renderBookDetails.js";
 let books = [];
 document.addEventListener("DOMContentLoaded", () => __awaiter(void 0, void 0, void 0, function* () {
     try {
